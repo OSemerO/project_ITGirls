@@ -1,0 +1,39 @@
+@font-face {
+    src: url("/fonts/JosefinSans-Bold.ttf") format('truetype');
+    font-family: 'Josefin Sans Bold';
+    font-weight: 700;
+}
+
+/*шапка страницы*/
+
+@font-face {
+    src: url("/fonts/JosefinSans-Regular.ttf") format('truetype');
+    font-family: 'Josefin Sans Regular';
+    font-weight: 700;
+}
+
+/*шапка страницы*/
+
+@font-face {
+    src: url("/fonts/CedarvilleCursive-Regular.ttf") format('truetype');
+    font-family: 'Cedarville Cursive Regular';
+    font-weight: 400;
+}
+
+/*надписи возле картинок*/
+
+@font-face {
+    src: url("/fonts/GeorgeRoundedRegular.ttf");
+    font-family: 'George Round';
+    font-weight: 400;
+}
+
+/*применяется к тексту во всех кнопках кроме шапки*/
+
+@font-face {
+    src: url("/fonts/AlegreyaSans-Light.ttf");
+    font-family: 'Alegreya Sans';
+    font-weight: 400;
+}
+
+/*основной текст*/
