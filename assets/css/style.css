@@ -1,39 +1,93 @@
 @font-face {
-    src: url("/fonts/JosefinSans-Bold.ttf") format('truetype');
-    font-family: 'Josefin Sans Bold';
-    font-weight: 700;
+  src: url("/fonts/JosefinSans-Bold.ttf") format("truetype");
+  font-family: "Josefin Sans Bold";
+  font-weight: 700;
 }
 
 /*шапка страницы*/
 
 @font-face {
-    src: url("/fonts/JosefinSans-Regular.ttf") format('truetype');
-    font-family: 'Josefin Sans Regular';
-    font-weight: 700;
+  src: url("/fonts/JosefinSans-Regular.ttf") format("truetype");
+  font-family: "Josefin Sans Regular";
+  font-weight: 700;
 }
 
 /*шапка страницы и заголовки*/
 
 @font-face {
-    src: url("/fonts/CedarvilleCursive-Regular.ttf") format('truetype');
-    font-family: 'Cedarville Cursive Regular';
-    font-weight: 400;
+  src: url("/fonts/CedarvilleCursive-Regular.ttf") format("truetype");
+  font-family: "Cedarville Cursive Regular";
+  font-weight: 400;
 }
 
 /*надписи возле картинок*/
 
 @font-face {
-    src: url("/fonts/GeorgeRoundedRegular.ttf");
-    font-family: 'George Round';
-    font-weight: 400;
+  src: url("/fonts/GeorgeRoundedRegular.ttf");
+  font-family: "George Round";
+  font-weight: 400;
 }
 
 /*применяется к тексту во всех кнопках кроме шапки*/
 
 @font-face {
-    src: url("/fonts/AlegreyaSans-Light.ttf");
-    font-family: 'Alegreya Sans';
-    font-weight: 400;
+  src: url("/fonts/AlegreyaSans-Light.ttf");
+  font-family: "Alegreya Sans";
+  font-weight: 400;
 }
 
 /*основной текст*/
+.main {
+  max-width: 70%;
+}
+
+.about-us {
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  padding: 15px;
+  margin-top: 50px;
+}
+.about-us__title {
+  font-family: "Cedarville Cursive Regular";
+  font-weight: 400;
+  font-size: 28px;
+  color: black;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+.about-us__wrapper {
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  gap: 20px;
+}
+.about-us__image {
+  background-color: #fae9e0;
+  max-width: 380px;
+  max-height: 287px;
+}
+.about-us__img {
+  margin-left: 25px;
+  margin-top: 70px;
+}
+.about-us__text {
+  padding: 30px;
+}
+.about-us__text-subtitle {
+  font-family: "Josefin Sans Bold";
+  font-weight: 700;
+  font-size: 38px;
+  color: black;
+}
+
+.about-us__text p {
+  font-family: "Josefin Sans Regular";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 189%;
+  letter-spacing: 0em;
+  text-align: justify;
+}
