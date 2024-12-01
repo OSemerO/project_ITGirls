@@ -167,3 +167,66 @@ nav {
     border-radius: 7px;
     font-size: 16px;
 }
+.promotion {
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    padding: 15px;
+    margin-top: 50px;
+}
+.promotion__title {
+    font-family: "Cedarville Cursive Regular";
+    font-weight: 400;
+    font-size: 28px;
+    color: black;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+.promotion__wrapper {
+    display: flex;
+    justify-content: center;
+    justify-items: baseline;
+    gap: 20px;
+}
+
+.promotion__image {
+    background-color: #E3EBE7;
+    max-width: 410px;
+    max-height: 276px;
+}
+.promotion__img {
+    margin-left: 170px;
+    margin-top: -30px;
+}
+.promotion__text {
+    padding: 10px;
+}
+
+.promotion__text-subtitle {
+    font-family: "Josefin Sans Bold";
+    font-weight: 700;
+    font-size: 38px;
+    color: black;
+}
+
+.promotion__text p {
+    font-family: "Josefin Sans Regular";
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 189%;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.order_now {
+    font-family: "Josefin Sans Regular";
+    font-weight: 700;
+    color: white;
+    background-color: #2D635E;
+    border: none;
+    width: 135px;
+    height: 43px;
+    border-radius: 7px;
+    font-size: 16px;
+}
