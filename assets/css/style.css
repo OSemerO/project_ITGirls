@@ -167,6 +167,7 @@ nav {
     border-radius: 7px;
     font-size: 16px;
 }
+
 .promotion {
     margin-left: 50px;
     margin-right: 50px;
@@ -174,16 +175,18 @@ nav {
     padding: 15px;
     margin-top: 50px;
 }
+
 .promotion_title {
     font-family: "Cedarville Cursive Regular";
     font-weight: 400;
     font-size: 28px;
     color: black;
-    position:relative;
+    position: relative;
     top: 2%;
     left: 5%;
     transform: translate(-50%, -50%) rotate(-90deg);
 }
+
 .promotion__wrapper {
     display: flex;
     justify-content: center;
@@ -196,11 +199,13 @@ nav {
     max-width: 410px;
     max-height: 276px;
 }
+
 .promotion__img {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: -30px;
 }
+
 .promotion__text {
     padding: 10px;
 }
@@ -220,6 +225,7 @@ nav {
     letter-spacing: 0em;
     text-align: left;
 }
+
 .order_now {
     font-family: "Josefin Sans Regular";
     font-weight: 700;
@@ -230,4 +236,104 @@ nav {
     height: 43px;
     border-radius: 7px;
     font-size: 16px;
+}
+
+.section1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section1_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*.text_wrapper {}*/
+
+.text_section1 {
+    font-family: "Cedarville Cursive Regular";
+    font-weight: 400;
+    font-size: 28px;
+}
+
+h1 {
+    font-family: "Josefin Sans Regular";
+    font-weight: 700;
+    font-size: 63px;
+}
+
+.button_section1 {
+    width: 235px;
+    height: 54px;
+    background-color: #2D635E;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    font-family: "George Round";
+    font-weight: 400;
+    font-size: 20px;
+    align-content: center;
+}
+
+.turk {
+    width: 344px;
+    height: 373px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.image_wrapper {
+    display: flex;
+}
+
+.line_wrap {
+    background-color: #E3EBE7;
+    width: 159px;
+    height: 157px;
+    opacity: 40%;
+    margin-top: 309px;
+    /*margin-right: 50px;*/
+}
+
+.line {
+    padding-top: calc(157px / 2);
+    padding-left: calc((159px - 25px)/2);
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.icons img {
+    width: 32px;
+    height: 32px;
+}
+
+.icon_text {
+    transform: rotate(-90deg);
+}
+
+.button_follow {
+    font-family: "Josefin Sans Regular";
+    font-weight: 700;
+    font-size: 28px;
+    color: #444A4A;
+    position: relative;
+}
+
+.section1_turk {
+    background-color: #E3EBE7;
+    width: 410px;
+    height: 466px;
 }
