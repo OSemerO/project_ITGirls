@@ -294,10 +294,10 @@ h1 {
 }
 
 .line_wrap {
-    background-color: #E3EBE7;
+    background-color: rgba(227, 235, 231, 0.4);
     width: 159px;
     height: 157px;
-    opacity: 40%;
+    /*opacity: 40%;*/
     margin-top: 309px;
     /*margin-right: 50px;*/
 }
