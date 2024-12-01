@@ -174,14 +174,14 @@ nav {
     padding: 15px;
     margin-top: 50px;
 }
-.promotion__title {
+.promotion_title {
     font-family: "Cedarville Cursive Regular";
     font-weight: 400;
     font-size: 28px;
     color: black;
-    position: absolute;
-    top: 5%;
-    left: 2%;
+    position:relative;
+    top: 2%;
+    left: 5%;
     transform: translate(-50%, -50%) rotate(-90deg);
 }
 .promotion__wrapper {
@@ -197,7 +197,8 @@ nav {
     max-height: 276px;
 }
 .promotion__img {
-    margin-left: 170px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: -30px;
 }
 .promotion__text {
