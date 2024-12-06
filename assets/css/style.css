@@ -106,8 +106,12 @@ nav {
 /*основной текст*/
 .main {
   /* max-width: 75%; */
-  /* margin: 0 auto; */
-  max-width: 1450px;
+  margin: 0 auto;
+  max-width: 1550px;
+}
+
+button:hover {
+  box-shadow: 10px 5px 5px #096058;
 }
 
 .section1 {
@@ -116,7 +120,7 @@ nav {
   position: relative;
   padding: 15px;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .section1_wrapper {
@@ -211,8 +215,8 @@ h1 {
   margin-left: 50px;
   margin-right: 50px;
   position: relative;
-  padding: 15px;
-  margin-top: 50px;
+  padding: 20px;
+  margin-top: 55px;
 }
 
 .about-us__title {
@@ -221,8 +225,8 @@ h1 {
   font-size: 28px;
   color: black;
   position: absolute;
-  top: 5%;
-  left: 2%;
+  top: 7%;
+  left: 9.5%;
   transform: translate(-50%, -50%) rotate(-90deg);
 }
 
@@ -246,6 +250,7 @@ h1 {
 
 .about-us__text {
   padding: 30px;
+  max-width: 645px;
 }
 
 .about-us__text-subtitle {
@@ -271,6 +276,7 @@ h1 {
   position: relative;
   padding: 15px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .promotion_title {
@@ -279,8 +285,8 @@ h1 {
   font-size: 28px;
   color: black;
   position: relative;
-  top: 2%;
-  left: 5%;
+  top: 5%;
+  left: 7%;
   transform: translate(-50%, -50%) rotate(-90deg);
 }
 
@@ -320,8 +326,13 @@ h1 {
   font-size: 19px;
   line-height: 189%;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: justify;
   color: #444a4a;
+}
+
+.promotion .order__button {
+  width: 235px;
+  height: 54px;
 }
 
 .order__button {
@@ -344,6 +355,7 @@ h1 {
 .order__wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 30px;
   padding-top: 10px;
 }
@@ -381,10 +393,11 @@ h1 {
 }
 
 .arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
+  border: solid #2d635e;
+  border-width: 0 5px 5px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 10px;
+  margin-top: 219px;
 }
 
 .order__arrow--right {
