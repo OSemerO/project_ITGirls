@@ -337,3 +337,41 @@ h1 {
     width: 410px;
     height: 466px;
 }
+
+.contacts_text-subtitle {
+    font-family: "Josefin Sans Bold";
+    font-weight: 700;
+    font-size: 38px;
+    color: black;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: flex;
+    
+}
+
+.contacts_wrapper {
+    display: flex;
+    justify-content: center;
+    justify-items: baseline;
+    gap: 130px;
+}
+
+.contacts_img {
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.contacts_title {
+    font-family: "Cedarville Cursive Regular";
+    font-weight: 400;
+    font-size: 28px;
+    color: black;
+    position: relative;
+    top: 2%;
+    left: 5%;
+    transform: translate(-180%, -25%) rotate(-90deg);
+}
+.contacts_text {
+    padding: 10px;
+}
