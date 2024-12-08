@@ -217,11 +217,11 @@ h1 {
 }
 
 .about-us {
-  margin-left: 50px;
-  margin-right: 50px;
+  max-width: 1131px;
   position: relative;
-  padding: 20px;
-  margin-top: 55px;
+  position: relative;
+  padding: 30px;
+  margin: 50px 55px 0;
 }
 
 .about-us__title {
@@ -230,8 +230,8 @@ h1 {
   font-size: 28px;
   color: black;
   position: absolute;
-  top: 7%;
-  left: 9.5%;
+  top: 9%;
+  left: 3.5%;
   transform: translate(-50%, -50%) rotate(-90deg);
 }
 
@@ -254,8 +254,7 @@ h1 {
 }
 
 .about-us__text {
-  padding: 30px;
-  max-width: 645px;
+  padding-left: 45px;
 }
 
 .about-us__text-subtitle {
@@ -441,10 +440,6 @@ h1 {
   flex-direction: row;
   justify-content: center;
   justify-items: baseline;
-}
-
-.contacts__image {
-  margin-left: 60px;
 }
 
 .contacts__img {
