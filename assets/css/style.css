@@ -47,6 +47,11 @@ header {
     /*max-width: 70%;*/
 }
 
+body {
+    overflow-x: hidden;
+    /* отключает горизонтальную прокрутку */
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -375,6 +380,10 @@ h1 {
     align-items: center;
 }
 
+.order__item--hidden {
+    display: none;
+}
+
 .order__item-title {
     font-family: "Josefin Sans Bold";
     font-weight: 700;
@@ -390,6 +399,18 @@ h1 {
     color: #444a4a;
     padding: 15px;
     text-align: justify;
+}
+
+.order__button {
+    font-family: "Josefin Sans Regular";
+    font-weight: 700;
+    color: white;
+    background-color: #2d635e;
+    border: none;
+    width: 135px;
+    height: 43px;
+    border-radius: 7px;
+    font-size: 16px;
 }
 
 .arrow {
@@ -409,7 +430,6 @@ h1 {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
 }
-
 
 .contacts_text-subtitle {
     font-family: "Josefin Sans Bold";
