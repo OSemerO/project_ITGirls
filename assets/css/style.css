@@ -119,7 +119,7 @@ button:hover {
     box-shadow: 10px 5px 5px #096058;
 }
 
-.section1 {
+.coffe-intro {
     margin-left: 50px;
     margin-right: 50px;
     position: relative;
@@ -128,13 +128,13 @@ button:hover {
     margin-bottom: 100px;
 }
 
-.section1_wrapper {
+.coffe-intro_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.text_section1 {
+.text_coffe-intro {
     font-family: "Cedarville Cursive Regular";
     font-weight: 400;
     font-size: 28px;
@@ -146,7 +146,7 @@ h1 {
     font-size: 63px;
 }
 
-.button_section1 {
+.button_coffe-intro {
     width: 235px;
     height: 54px;
     background-color: #2d635e;
@@ -160,7 +160,7 @@ h1 {
     align-content: center;
 }
 
-.turk {
+.coffe-intro_turk {
     width: 344px;
     height: 373px;
     margin-top: 150px;
@@ -185,7 +185,7 @@ h1 {
     padding-left: calc((159px - 25px) / 2);
 }
 
-.icons {
+.coffe-intro_icons {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -193,7 +193,7 @@ h1 {
     gap: 50px;
 }
 
-.icons img {
+.coffe-intro_icons img {
     width: 32px;
     height: 32px;
 }
