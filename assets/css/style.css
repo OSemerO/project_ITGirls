@@ -221,7 +221,6 @@ h1 {
 .about-us {
     max-width: 1131px;
     position: relative;
-    position: relative;
     padding: 30px;
     margin: 50px 55px 0;
 }
@@ -504,59 +503,298 @@ h1 {
     padding-top: 100px;
 }
 
-@media (max-width:380px) {
-    nav {
-        display: none;
+.contacts__button--hidden {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+
+    .about-us,
+    .promotion,
+    .contacts {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    .logo {
-        margin-left: 100px;
+    .about-us__title {
+        left: 23.5%;
     }
 
-    .text_coffe-intro {
-        font-family: "Cedarville Cursive Regular";
-        font-weight: 400;
-        font-size: 19px;
+    .about-us__image,
+    .promotion__image {
+        margin-left: 22%;
+    }
+
+    .about-us__wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .about-us__text p,
+    .promotion__text p {
+        max-width: 55%;
+        font-size: 1.5vw;
+        word-wrap: break-word;
+        line-height: 140%;
+        padding: 15px;
         text-align: center;
-        margin-left: 45px;
+        padding-top: 100px;
     }
 
-    h1 {
-        font-family: "Josefin Sans Regular";
-        font-weight: 700;
-        font-size: 54px;
-        margin-left: 48px;
+    @media (max-width:380px) {
+        nav {
+            display: none;
+        }
+
+        .logo {
+            margin-left: 100px;
+        }
+
+        .text_coffe-intro {
+            font-family: "Cedarville Cursive Regular";
+            font-weight: 400;
+            font-size: 19px;
+            text-align: center;
+            margin-left: 45px;
+        }
+
+        h1 {
+            font-family: "Josefin Sans Regular";
+            font-weight: 700;
+            font-size: 54px;
+            margin-left: 48px;
+        }
+
+        .text_wrapper {
+            white-space: nowrap;
+        }
+
+        .coffe-intro {
+            margin-left: 0;
+            padding-left: 0;
+            margin-top: 150px;
+            position: relative;
+            text-align: center;
+        }
+
+        .button_coffe-intro {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 189px;
+            height: 53px;
+            font-size: 16px;
+            margin-left: 95px;
+        }
+
+        .line {
+            margin-left: -100px;
+        }
+
+        .image_wrapper {
+            display: none;
+        }
+
+
+    }
+}
+
+.promotion__wrapper {
+    flex-direction: column-reverse;
+    gap: 50px;
+    margin-left: 30px;
+}
+
+.promotion_title,
+.contacts__title {
+    display: none;
+}
+
+.order__button {
+    margin-left: 22%;
+}
+
+.order__wrapper,
+.contacts__wrapper {
+    max-width: 80%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.order__arrow {
+    display: none;
+}
+
+.order__item-text {
+    font-size: 1.5vw;
+}
+
+.order__button--shop {
+    margin: 0;
+}
+
+.contacts__copyright {
+    margin-left: -22%;
+}
+}
+
+@media (max-width: 820px) {
+
+    .about-us__title,
+    .promotion_title {
+        font-size: 22px;
     }
 
-    .text_wrapper {
-        white-space: nowrap;
+    .about-us__text-subtitle,
+    .promotion__text-subtitle {
+        font-size: 30px;
+        margin-left: 20%;
+        padding: 10px;
     }
 
-    .coffe-intro {
-        margin-left: 0;
-        padding-left: 0;
-        margin-top: 150px;
-        position: relative;
-        text-align: center;
-    }
-
-    .button_coffe-intro {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        width: 189px;
-        height: 53px;
+    .about-us__text p,
+    .promotion__text p,
+    .order__item-text {
         font-size: 16px;
-        margin-left: 95px;
+        margin: 0 auto;
     }
 
-    .line {
-        margin-left: -100px;
+    .contacts__img {
+        margin-left: 22%;
+        margin-top: 30px;
+        max-width: 80%;
     }
 
-    .image_wrapper {
+    .contacts__text {
+        margin-left: 22%;
+    }
+
+    .contacts__copyright {
+        margin-left: -10%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .about-us,
+    .promotion,
+    .contacts {
+        margin-left: 10 px;
+        margin-right: 10 px;
+        padding: 10 px;
+    }
+
+    .about-us__title,
+    .promotion_title {
+        font-size: 20 px;
+    }
+
+    .about-us__text-subtitle,
+    .promotion__text-subtitle {
+        font-size: 26 px;
+    }
+
+    .about-us__text p,
+    .promotion__text p,
+    .order__item-text {
+        font-size: 14 px;
+        line-height: 150%;
+    }
+
+    .order__wrapper {
+        margin-left: 12%;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .about-us,
+    .promotion {
+        max-width: 400px;
+    }
+
+    .about-us__image,
+    .promotion__image {
+        max-width: 100%;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .about-us__img,
+    .promotion__img {
+        max-width: 100%;
+    }
+
+    .about-us__title {
         display: none;
     }
 
+    .about-us__text {
+        margin: 0 auto;
+    }
 
+    .about-us__text-subtitle,
+    .promotion__text-subtitle {
+        margin-left: 12%;
+        font-weight: 600;
+        font-size: 38px;
+    }
+
+    .about-us__text p,
+    .promotion__text p,
+    .order__item-text {
+        margin: 0 auto;
+        max-width: 100%;
+        font-size: 19px;
+    }
+
+    .contacts {
+        margin: 0 auto;
+    }
+
+    .contacts__text-line {
+        display: none;
+    }
+
+    .contacts__img {
+        max-width: 337px;
+        max-height: 300px;
+    }
+
+    .contacts__text-subtitle {
+        font-size: 32px;
+        line-height: 141%;
+        text-align: justify;
+    }
+
+    .contacts__text-adress {
+        font-size: 18px;
+        line-height: 250%;
+    }
+
+    .contacts__text-adress--hidden {
+        display: none;
+    }
+
+    .contacts__button--hidden {
+        font-family: "Josefin Sans Regular";
+        max-width: 189px;
+        min-height: 53px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-content: stretch;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 5px;
+        border: #e0e4e4;
+    }
+
+    .contacts__button--hidden:hover {
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.17);
+    }
 }
