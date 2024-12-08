@@ -1,503 +1,733 @@
 @font-face {
-    src: url("/fonts/JosefinSans-Bold.ttf") format("truetype");
-    font-family: "Josefin Sans Bold";
-    font-weight: 700;
+  src: url("/fonts/JosefinSans-Bold.ttf") format("truetype");
+  font-family: "Josefin Sans Bold";
+  font-weight: 700;
 }
 
 /*шапка страницы*/
 
 @font-face {
-    src: url("/fonts/JosefinSans-Regular.ttf") format("truetype");
-    font-family: "Josefin Sans Regular";
-    font-weight: 700;
+  src: url("/fonts/JosefinSans-Regular.ttf") format("truetype");
+  font-family: "Josefin Sans Regular";
+  font-weight: 700;
 }
 
 /*шапка страницы и заголовки*/
 
 @font-face {
-    src: url("/fonts/CedarvilleCursive-Regular.ttf") format("truetype");
-    font-family: "Cedarville Cursive Regular";
-    font-weight: 400;
+  src: url("/fonts/CedarvilleCursive-Regular.ttf") format("truetype");
+  font-family: "Cedarville Cursive Regular";
+  font-weight: 400;
 }
 
 /*надписи возле картинок*/
 
 @font-face {
-    src: url("/fonts/GeorgeRoundedRegular.ttf");
-    font-family: "George Round";
-    font-weight: 400;
+  src: url("/fonts/GeorgeRoundedRegular.ttf");
+  font-family: "George Round";
+  font-weight: 400;
 }
 
 /*применяется к тексту во всех кнопках кроме шапки*/
 
 @font-face {
-    src: url("/fonts/AlegreyaSans-Light.ttf");
-    font-family: "Alegreya Sans";
-    font-weight: 400;
+  src: url("/fonts/AlegreyaSans-Light.ttf");
+  font-family: "Alegreya Sans";
+  font-weight: 400;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 500px;
-    margin-top: 2%;
-    margin-left: 50px;
-    margin-right: 50px;
-    /*max-width: 70%;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 500px;
+  margin-top: 2%;
+  margin-left: 50px;
+  margin-right: 50px;
+  /*max-width: 70%;*/
 }
 
 body {
-    overflow-x: hidden;
-    /* отключает горизонтальную прокрутку */
+  overflow-x: hidden;
+  /* отключает горизонтальную прокрутку */
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .image_logo {
-    width: 56px;
-    height: 35px;
-    margin-left: -40px;
-    margin-top: -8px;
+  width: 56px;
+  height: 35px;
+  margin-left: -40px;
+  margin-top: -8px;
 }
 
 .text_logo {
-    width: 167px;
-    height: 38px;
+  width: 167px;
+  height: 38px;
 }
 
 nav {
-    display: flex;
-    gap: 70px;
+  display: flex;
+  gap: 70px;
 }
 
 .nav {
-    display: flex;
-    list-style: none;
-    gap: 70px;
+  display: flex;
+  list-style: none;
+  gap: 70px;
 }
 
 .text1 {
-    text-decoration: none;
-    color: black;
-    font-family: "Josefin Sans Regular";
-    font-weight: 700;
-    font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-family: "Josefin Sans Regular";
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .text2 {
-    text-decoration: none;
-    color: black;
-    font-family: "Josefin Sans Bold";
-    font-weight: 700;
-    font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-family: "Josefin Sans Bold";
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .contact {
-    font-family: "Josefin Sans Regular";
-    font-weight: 700;
-    color: white;
-    background-color: #2d635e;
-    border: none;
-    width: 135px;
-    height: 43px;
-    border-radius: 7px;
-    font-size: 16px;
+  font-family: "Josefin Sans Regular";
+  font-weight: 700;
+  color: white;
+  background-color: #2d635e;
+  border: none;
+  width: 135px;
+  height: 43px;
+  border-radius: 7px;
+  font-size: 16px;
 }
 
 /*основной текст*/
 .main {
-    /* max-width: 75%; */
-    margin: 0 auto;
-    max-width: 1550px;
+  /* max-width: 75%; */
+  margin: 0 auto;
+  max-width: 1550px;
 }
 
 button:hover {
-    box-shadow: 10px 5px 5px #096058;
+  box-shadow: 10px 5px 5px #096058;
 }
 
 .coffe-intro {
-    margin-left: 50px;
-    margin-right: 50px;
-    position: relative;
-    padding: 15px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .coffe-intro_wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .text_coffe-intro {
-    font-family: "Cedarville Cursive Regular";
-    font-weight: 400;
-    font-size: 28px;
+  font-family: "Cedarville Cursive Regular";
+  font-weight: 400;
+  font-size: 28px;
 }
 
 h1 {
-    font-family: "Josefin Sans Regular";
-    font-weight: 700;
-    font-size: 63px;
+  font-family: "Josefin Sans Regular";
+  font-weight: 700;
+  font-size: 63px;
 }
 
 .button_coffe-intro {
-    width: 235px;
-    height: 54px;
-    background-color: #2d635e;
-    color: white;
-    font-size: 20px;
-    border: none;
-    border-radius: 7px;
-    font-family: "George Round";
-    font-weight: 400;
-    font-size: 20px;
-    align-content: center;
+  width: 235px;
+  height: 54px;
+  background-color: #2d635e;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  font-family: "George Round";
+  font-weight: 400;
+  font-size: 20px;
+  align-content: center;
 }
 
 .coffe-intro_turk {
-    width: 344px;
-    height: 373px;
-    margin-top: 150px;
-    margin-left: 50px;
+  width: 344px;
+  height: 373px;
+  margin-top: 150px;
+  margin-left: 50px;
 }
 
 .image_wrapper {
-    display: flex;
+  display: flex;
 }
 
 .line_wrap {
-    background-color: rgba(227, 235, 231, 0.4);
-    width: 159px;
-    height: 157px;
-    /*opacity: 40%;*/
-    margin-top: 309px;
-    /*margin-right: 50px;*/
+  background-color: rgba(227, 235, 231, 0.4);
+  width: 159px;
+  height: 157px;
+  /*opacity: 40%;*/
+  margin-top: 309px;
+  /*margin-right: 50px;*/
 }
 
 .line {
-    padding-top: calc(157px / 2);
-    padding-left: calc((159px - 25px) / 2);
+  padding-top: calc(157px / 2);
+  padding-left: calc((159px - 25px) / 2);
 }
 
 .coffe-intro_icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
 }
 
 .coffe-intro_icons img {
-    width: 32px;
-    height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .icon_text {
-    transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .button_follow {
-    font-family: "Josefin Sans Regular";
-    font-weight: 700;
-    font-size: 28px;
-    color: #444a4a;
-    position: relative;
+  font-family: "Josefin Sans Regular";
+  font-weight: 700;
+  font-size: 28px;
+  color: #444a4a;
+  position: relative;
 }
 
 .section1_turk {
-    background-color: #e3ebe7;
-    width: 410px;
-    height: 466px;
+  background-color: #e3ebe7;
+  width: 410px;
+  height: 466px;
 }
 
 .about-us {
-    max-width: 1131px;
-    position: relative;
-    position: relative;
-    padding: 30px;
-    margin: 50px 55px 0;
+  max-width: 1131px;
+  position: relative;
+  padding: 30px;
+  margin: 50px 55px 0;
 }
 
 .about-us__title {
-    font-family: "Cedarville Cursive Regular";
-    font-weight: 400;
-    font-size: 28px;
-    color: black;
-    position: absolute;
-    top: 9%;
-    left: 3.5%;
-    transform: translate(-50%, -50%) rotate(-90deg);
+  font-family: "Cedarville Cursive Regular";
+  font-weight: 400;
+  font-size: 28px;
+  color: black;
+  position: absolute;
+  top: 9%;
+  left: 3.5%;
+  transform: translate(-50%, -50%) rotate(-90deg);
 }
 
 .about-us__wrapper {
-    display: flex;
-    justify-content: center;
-    justify-items: baseline;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  gap: 20px;
 }
 
 .about-us__image {
-    background-color: #fae9e0;
-    max-width: 380px;
-    max-height: 287px;
+  background-color: #fae9e0;
+  max-width: 380px;
+  max-height: 287px;
 }
 
 .about-us__img {
-    margin-left: 25px;
-    margin-top: 70px;
+  margin-left: 25px;
+  margin-top: 70px;
 }
 
 .about-us__text {
-    padding-left: 45px;
+  padding-left: 45px;
 }
 
 .about-us__text-subtitle {
-    font-family: "Josefin Sans Bold";
-    font-weight: 700;
-    font-size: 38px;
-    color: black;
+  font-family: "Josefin Sans Bold";
+  font-weight: 700;
+  font-size: 38px;
+  color: black;
 }
 
 .about-us__text p {
-    font-family: "Josefin Sans Regular";
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 189%;
-    letter-spacing: 0em;
-    text-align: justify;
-    color: #444a4a;
+  font-family: "Josefin Sans Regular";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 189%;
+  letter-spacing: 0em;
+  text-align: justify;
+  color: #444a4a;
 }
 
 .promotion {
-    margin-left: 50px;
-    margin-right: 50px;
-    position: relative;
-    padding: 15px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .promotion_title {
-    font-family: "Cedarville Cursive Regular";
-    font-weight: 400;
-    font-size: 28px;
-    color: black;
-    position: relative;
-    top: 5%;
-    left: 7%;
-    transform: translate(-50%, -50%) rotate(-90deg);
+  font-family: "Cedarville Cursive Regular";
+  font-weight: 400;
+  font-size: 28px;
+  color: black;
+  position: relative;
+  top: 5%;
+  left: 7%;
+  transform: translate(-50%, -50%) rotate(-90deg);
 }
 
 .promotion__wrapper {
-    display: flex;
-    justify-content: center;
-    justify-items: baseline;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  gap: 20px;
 }
 
 .promotion__image {
-    background-color: #e3ebe7;
-    max-width: 410px;
-    max-height: 276px;
+  background-color: #e3ebe7;
+  max-width: 410px;
+  max-height: 276px;
 }
 
 .promotion__img {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: -30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -30px;
 }
 
 .promotion__text {
-    padding: 10px;
+  padding: 10px;
 }
 
 .promotion__text-subtitle {
-    font-family: "Josefin Sans Bold";
-    font-weight: 700;
-    font-size: 38px;
-    color: black;
+  font-family: "Josefin Sans Bold";
+  font-weight: 700;
+  font-size: 38px;
+  color: black;
 }
 
 .promotion__text p {
-    font-family: "Josefin Sans Regular";
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 189%;
-    letter-spacing: 0em;
-    text-align: justify;
-    color: #444a4a;
+  font-family: "Josefin Sans Regular";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 189%;
+  letter-spacing: 0em;
+  text-align: justify;
+  color: #444a4a;
 }
 
 .promotion .order__button {
-    width: 235px;
-    height: 54px;
+  width: 235px;
+  height: 54px;
 }
 
 .order__button {
-    font-family: "Josefin Sans Regular";
-    font-weight: 700;
-    color: white;
-    background-color: #2d635e;
-    border: none;
-    width: 135px;
-    height: 43px;
-    border-radius: 7px;
-    font-size: 16px;
+  font-family: "Josefin Sans Regular";
+  font-weight: 700;
+  color: white;
+  background-color: #2d635e;
+  border: none;
+  width: 135px;
+  height: 43px;
+  border-radius: 7px;
+  font-size: 16px;
 }
 
 .order {
-    min-height: 550px;
-    background-color: rgba(45, 99, 94, 0.05);
+  min-height: 550px;
+  background-color: rgba(45, 99, 94, 0.05);
 }
 
 .order__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 10px;
 }
 
 .order__item {
-    border-radius: 25px;
-    width: 339px;
-    height: 458px;
-    box-shadow: 0 23px 34px 0 rgba(35, 57, 55, 0.17);
-    background: white;
+  border-radius: 25px;
+  width: 339px;
+  height: 458px;
+  box-shadow: 0 23px 34px 0 rgba(35, 57, 55, 0.17);
+  background: white;
 }
 
 .order__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .order__item--hidden {
-    display: none;
+  display: none;
 }
 
 .order__item-title {
-    font-family: "Josefin Sans Bold";
-    font-weight: 700;
-    font-size: 28px;
+  font-family: "Josefin Sans Bold";
+  font-weight: 700;
+  font-size: 28px;
 }
 
 .order__item-text {
-    font-family: "Josefin Sans Regular";
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 36px;
-    letter-spacing: 0em;
-    color: #444a4a;
-    padding: 15px;
-    text-align: justify;
+  font-family: "Josefin Sans Regular";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #444a4a;
+  padding: 15px;
+  text-align: justify;
 }
 
 .order__button {
-    font-family: "Josefin Sans Regular";
-    font-weight: 700;
-    color: white;
-    background-color: #2d635e;
-    border: none;
-    width: 135px;
-    height: 43px;
-    border-radius: 7px;
-    font-size: 16px;
+  font-family: "Josefin Sans Regular";
+  font-weight: 700;
+  color: white;
+  background-color: #2d635e;
+  border: none;
+  width: 135px;
+  height: 43px;
+  border-radius: 7px;
+  font-size: 16px;
 }
 
 .arrow {
-    border: solid #2d635e;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 219px;
+  border: solid #2d635e;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 219px;
 }
 
 .order__arrow--right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 .order__arrow--left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 .contacts {
-    margin-left: 50px;
-    margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .contacts__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: baseline;
 }
 
 .contacts__img {
-    margin-right: 100px;
-    margin-top: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
 }
 
 .contacts__title {
-    font-family: "Cedarville Cursive Regular";
-    font-weight: 400;
-    font-size: 28px;
-    color: black;
-    position: relative;
-    top: 2%;
-    left: 16%;
-    transform: translate(-180%, -25%) rotate(-90deg);
+  font-family: "Cedarville Cursive Regular";
+  font-weight: 400;
+  font-size: 28px;
+  color: black;
+  position: relative;
+  top: 2%;
+  left: 16%;
+  transform: translate(-180%, -25%) rotate(-90deg);
 }
 
 .contacts__text {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .contacts__text-line {
-    border: 1px solid #444a4a;
-    width: 102px;
-    position: relative;
-    top: 75px;
-    left: -155px;
+  border: 1px solid #444a4a;
+  width: 102px;
+  position: relative;
+  top: 75px;
+  left: -155px;
 }
 
 .contacts__text-subtitle {
-    font-family: "Josefin Sans Bold";
-    font-weight: 700;
-    font-size: 38px;
-    color: black;
-    margin-top: 40px;
+  font-family: "Josefin Sans Bold";
+  font-weight: 700;
+  font-size: 38px;
+  color: black;
+  margin-top: 40px;
 }
 
 .contacts__text-adress {
-    font-family: "Josefin Sans Regular";
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 36px;
-    color: #444a4a;
-    text-align: justify;
+  font-family: "Josefin Sans Regular";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 36px;
+  color: #444a4a;
+  text-align: justify;
 }
 
 .contacts__copyright {
-    font-family: "Josefin Sans Regular";
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 36px;
-    letter-spacing: 0em;
-    color: #444a4a;
+  font-family: "Josefin Sans Regular";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #444a4a;
+  padding: 15px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contacts__button--hidden {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .about-us,
+  .promotion,
+  .contacts {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-us__title {
+    left: 23.5%;
+  }
+
+  .about-us__image,
+  .promotion__image {
+    margin-left: 22%;
+  }
+
+  .about-us__wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .about-us__text p,
+  .promotion__text p {
+    max-width: 55%;
+    font-size: 1.5vw;
+    word-wrap: break-word;
+    line-height: 140%;
     padding: 15px;
-    text-align: center;
-    padding-top: 100px;
+  }
+
+  .promotion__wrapper {
+    flex-direction: column-reverse;
+    gap: 50px;
+    margin-left: 30px;
+  }
+
+  .promotion_title,
+  .contacts__title {
+    display: none;
+  }
+
+  .order__button {
+    margin-left: 22%;
+  }
+
+  .order__wrapper,
+  .contacts__wrapper {
+    max-width: 80%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .order__arrow {
+    display: none;
+  }
+
+  .order__item-text {
+    font-size: 1.5vw;
+  }
+
+  .order__button--shop {
+    margin: 0;
+  }
+
+  .contacts__copyright {
+    margin-left: -22%;
+  }
+}
+
+@media (max-width: 820px) {
+  .about-us__title,
+  .promotion_title {
+    font-size: 22px;
+  }
+
+  .about-us__text-subtitle,
+  .promotion__text-subtitle {
+    font-size: 30px;
+    margin-left: 20%;
+    padding: 10px;
+  }
+
+  .about-us__text p,
+  .promotion__text p,
+  .order__item-text {
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .contacts__img {
+    margin-left: 22%;
+    margin-top: 30px;
+    max-width: 80%;
+  }
+
+  .contacts__text {
+    margin-left: 22%;
+  }
+
+  .contacts__copyright {
+    margin-left: -10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us,
+  .promotion,
+  .contacts {
+    margin-left: 10 px;
+    margin-right: 10 px;
+    padding: 10 px;
+  }
+
+  .about-us__title,
+  .promotion_title {
+    font-size: 20 px;
+  }
+
+  .about-us__text-subtitle,
+  .promotion__text-subtitle {
+    font-size: 26 px;
+  }
+
+  .about-us__text p,
+  .promotion__text p,
+  .order__item-text {
+    font-size: 14 px;
+    line-height: 150%;
+  }
+
+  .order__wrapper {
+    margin-left: 12%;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-us,
+  .promotion {
+    max-width: 400px;
+  }
+
+  .about-us__image,
+  .promotion__image {
+    max-width: 100%;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .about-us__img,
+  .promotion__img {
+    max-width: 100%;
+  }
+
+  .about-us__title {
+    display: none;
+  }
+
+  .about-us__text {
+    margin: 0 auto;
+  }
+
+  .about-us__text-subtitle,
+  .promotion__text-subtitle {
+    margin-left: 12%;
+    font-weight: 600;
+    font-size: 38px;
+  }
+
+  .about-us__text p,
+  .promotion__text p,
+  .order__item-text {
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 19px;
+  }
+
+  .contacts {
+    margin: 0 auto;
+  }
+  .contacts__text-line {
+    display: none;
+  }
+
+  .contacts__img {
+    max-width: 337px;
+    max-height: 300px;
+  }
+
+  .contacts__text-subtitle {
+    font-size: 32px;
+    line-height: 141%;
+    text-align: justify;
+  }
+
+  .contacts__text-adress {
+    font-size: 18px;
+    line-height: 250%;
+  }
+
+  .contacts__text-adress--hidden {
+    display: none;
+  }
+
+  .contacts__button--hidden {
+    font-family: "Josefin Sans Regular";
+    max-width: 189px;
+    min-height: 53px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: #e0e4e4;
+  }
+
+  .contacts__button--hidden:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.17);
+  }
 }
